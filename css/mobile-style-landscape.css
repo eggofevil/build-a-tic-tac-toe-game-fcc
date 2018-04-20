@@ -1,0 +1,129 @@
+@media (orientation: landscape) and (max-width: 980px)  and (min-aspect-ratio: 4/3) {
+    article {
+        width: 100vw;
+        vertical-align: top;
+    }
+    
+    .splashEl {
+        width: 87vh;
+        margin-top: 0.5vh;
+    }
+    .square {
+        height: 87vh;
+        margin-left: calc((100vw - 87vh)/2);
+        border: 0.5vh solid #A9A9A9;
+    }
+    button {
+        border-width: 0.5vh;
+    }
+    #startScr {
+        height: 99vh;
+        width: 99vh;
+        margin-left: calc((100vw - 99vh)/2);
+    }
+    #startScr div {
+        height: 40vh;
+        line-height: 20vh;
+    }
+    h3 {
+        font-size: 14vh;
+    }
+    #startScr button {
+        height: 18vh;
+        width: 50%;
+        font-size: 8vh;
+    }
+    address, a {
+        font-size: 4vh;
+    }
+    #startScr address {
+        height: 40vh;
+        line-height: 40vh;
+    }
+    #chooseSideScr div {
+        margin-top: 15.5vh;
+        height: 20vh;
+        line-height: 20vh;
+        font-size: 20vh;
+    }
+    #chooseSideScr button {
+        height: 16vh;
+        width: 16vh;
+        font-size: 10vh;
+    }
+    #chooseSideScr span {
+        height: 16vh;
+        width: 20vh;
+        line-height: 16vh;
+        font-size: 10vh;
+    }
+    #backBtn {
+        margin-top: 2vh;
+    }
+    #infoScr {
+        position: absolute;
+        left: 0;
+        height: 99vh;
+        width: calc((100vw - 87vh)/2);
+        border-top: 0.5vh solid #A9A9A9;
+        border-bottom: 0.5vh solid #A9A9A9;
+    }
+    #infoScr div {
+        display: block;
+        height: 33vh;
+        width: 100%;
+        padding-top: 4.5vh;
+        line-height: 8vh;
+        font-size: 4vh;
+    }
+    #turnInfoScr {
+        width: 100% !important;
+        font-size: 5.5vh !important;
+    }
+    #playingField {
+        margin-top: 0.5vh;
+        border-width: 0vh;
+    }
+    #aiLvlScr {
+        position: absolute;
+        right: 0;
+        height: 49.5vh;
+        width: calc((100vw - 87vh)/2);
+    }
+    #aiLvlScr * {
+        height: 16vh;
+    }
+    #aiLvl {
+        font-size: 6vh;
+        line-height: 16vh;
+    }
+    #aiLvlScr button {
+        width: 70%;
+        font-size: 4vh;
+    }
+    .cell {
+        height: 29vh;
+        width: 29vh;
+        font-size: 26vh;
+    }
+    #startNewGameBtn {
+        position: absolute;
+        top: 74.25vh;
+        right: 0;
+        height: 24.75vh;
+        width: calc((100vw - 87vh)/2);
+        font-size: 5vh;
+ 
+    }
+    #endScr {
+        z-index: 1;
+        line-height: 87vh;
+    }
+    #footer {
+        margin: 0 auto;
+        height: 12vh;
+        line-height: 12vh;
+        background: #d3d3d3;
+        border: 0.5vh solid #A9A9A9;
+    }
+}

@@ -1,0 +1,108 @@
+@media (orientation: portrait)  and (max-aspect-ratio: 5/7) {
+    article {
+        width: 100vw;
+    }
+    .splashEl {
+        width: 99vw;
+        margin: 0 auto;
+    }
+    .square {
+        height: 99vw;
+        margin-top: calc((100vh - 99vw)/2);
+    }
+    button {
+        border-width: 0.5vw;
+    }
+    #startScr div {
+        height: 39.5vw;
+        line-height: 19.25vw;
+    }
+    h3 {
+        font-size: 14vw;
+    }
+    #startScr Button {
+        height: 20vw;
+        width: 50%;
+        font-size: 10vw;
+    }
+    address, a {
+        font-size: 4.5vw;
+    }
+    #startScr address {
+        height: 39.5vw;
+        line-height: 39.5vw;
+    }
+    #chooseSideScr div {
+        margin-top: 19.5vw;
+        height: 20vw;
+        font-size: 20vw;
+        line-height: 20vw;
+    }
+    #chooseSideScr button {
+        height: 20vw;
+        width: 20vw;
+        font-size: 14vw;
+    }
+    #chooseSideScr span {
+        height: 20vw;
+        width: 24vw;
+        line-height: 20vw;
+        font-size: 14vw;
+    }
+    #backBtn {
+        margin-top: 2vw;
+    }
+    #infoScr {
+        height: calc((100vh - 100vw)/2);
+        width: 66vw;
+        margin-left: 0.5vw;
+        border-width: 0.5vw;
+    }
+    #infoScr div {
+        margin-top: calc(((100vh - 100vw)/2 - 15vh)/2);
+        height: 15vh;
+        width: 21vw;
+        font-size: 5vw;
+        line-height: 5vh;
+    }
+    #turnInfoScr {
+        font-size: 7vw !important;
+    }
+    
+    #aiLvlScr {
+        height: calc((100vh - 100vw)/2);
+        width: 33vw;
+        border-width: 0.5vw;
+    }
+    #aiLvlScr * {
+        height: calc((100vh - 100vw)/6);
+    }
+    #aiLvl {
+        font-size: 7vw;
+        line-height: calc((100vh - 100vw)/6);
+    }
+    #aiLvlScr button {
+        width: 32vw;
+        font-size: 5vw;
+    }
+    
+    .cell {
+        height: 33vw;
+        width: 33vw;
+        border-width: 0.5vw;
+        font-size: 29vw;
+    }
+    #startNewGameBtn {
+        height: calc((100vh - 100vw)/4);
+        width: 49.5vw;
+        font-size: 6vw;
+    }
+    #endScr {
+        line-height: 99vw;
+        font-size: 16vw;
+    }
+    #footer {
+        height: calc((100vh - 100vw)/4);
+        line-height: calc((100vh - 100vw)/4);
+    }
+}
