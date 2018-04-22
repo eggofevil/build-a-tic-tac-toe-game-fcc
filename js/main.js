@@ -10,6 +10,7 @@ var player1ScoreScr = document.getElementById('player1ScoreScr');
 var player2ScoreScr = document.getElementById('player2ScoreScr');
 var aiLvlScr = document.getElementById('aiLvlScr');
 var aiLvlBtns = Array.prototype.slice.call(document.getElementsByClassName('aiLvlBtn'));
+var placeHolder = document.getElementById('placeHolder');
 var startNewGameBtn = document.getElementById('startNewGameBtn');
 var playingField = document.getElementById('playingField');
 var endScr = document.getElementById('endScr');
@@ -34,6 +35,7 @@ function returnToStart() {
     playingField.style.display = 'none';
     infoScr.style.display = 'none';
     aiLvlScr.style.display = 'none';
+    placeHolder.style.display = 'none';
     startNewGameBtn.style.display = 'none';
     footer.style.display = 'none';
     aiLvl = undefined;
@@ -200,6 +202,7 @@ twoPlayersBtn.addEventListener('click', function () {
     startScr.style.display = 'none';
     infoScr.style.display = '';
     playingField.style.display = '';
+    placeHolder.style.display = '';
     startNewGameBtn.style.display = '';
     footer.style.display = '';
     aiSymbol = undefined;
