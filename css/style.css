@@ -30,6 +30,7 @@ button {
     background-color: #999999;
     border-color: #888888;
     outline-color: #191919;
+    border-width: 0.3vh;
 }
 #startScr div {
     height: 30vh;
